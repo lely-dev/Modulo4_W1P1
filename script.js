@@ -22,11 +22,11 @@ RITORNA "TRUE" SE UNO DEI DUE è 50 O SE LA SOMMA DEI DUE è 50.
 /* ES 2 CREA UNA FUNZIONE CHE RIMUOVA IL CARATTERE AD UNA SPECIFICA POSIZIONE DA UNA STRINGA.
 PASSA LA STRINGA E LA POSIZIONE COME PARAMETRI E RITORNA LA STRINGA MODIFICATA. */
 
-// let testo = "cavatappi";
+let testo = "cavatappi";
 
-// let newText = testo.slice(3);
-
-// console.log(newText);
+function removeLetter(){
+    
+}
 
 
 /* ES 3 CREA UNA FUNZIONE CHE CONTROLLI SE DUE NUMERI SIANO COMPRESI TRA 40 E 60 O TRA 70 E 100.
@@ -136,19 +136,19 @@ ANGOLO PIATTO: 180° => RITORNA PIATTO */
 /* ES 8 CREA UNA FUNZIONE CHE CREI UN ACRONIMO A PARTIRE DA UNA FRASE.
 ES: "Fabbrica Italiana Automobili Torino" DEVE TORNARE "FIAT" */
 
-let myWord = "Fabbrica Italiana Automobili Torino";
+// let myWord = "Fabbrica Italiana Automobili Torino";
 
-function acronimo (){
-    let singleWord = myWord.split(" ");
-    let acronimoWord = "";
-    for (let i = 0; i < singleWord.length; i++) {
-        acronimoWord += singleWord[i].charAt(0);
+// function acronimo (){
+//     let singleWord = myWord.split(" ");
+//     let acronimoWord = "";
+//     for (let i = 0; i < singleWord.length; i++) {
+//         acronimoWord += singleWord[i].charAt(0);
         
         
-    }
+//     }
 
-    console.log(acronimoWord);
-}
+//     console.log(acronimoWord);
+// }
 
 
-acronimo();
+// acronimo();
